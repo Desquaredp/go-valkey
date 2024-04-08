@@ -1,31 +1,8 @@
-# Redis client for Go
+# Valkey client for Go
 
-[![build workflow](https://github.com/redis/go-redis/actions/workflows/build.yml/badge.svg)](https://github.com/redis/go-redis/actions)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/redis/go-redis/v9)](https://pkg.go.dev/github.com/redis/go-redis/v9?tab=doc)
-[![Documentation](https://img.shields.io/badge/redis-documentation-informational)](https://redis.uptrace.dev/)
-[![Chat](https://discordapp.com/api/guilds/752070105847955518/widget.png)](https://discord.gg/rWtp5Aj)
+## About
 
-> go-redis is brought to you by :star: [**uptrace/uptrace**](https://github.com/uptrace/uptrace).
-> Uptrace is an open-source APM tool that supports distributed tracing, metrics, and logs. You can
-> use it to monitor applications and set up automatic alerts to receive notifications via email,
-> Slack, Telegram, and others.
->
-> See [OpenTelemetry](https://github.com/redis/go-redis/tree/master/example/otel) example which
-> demonstrates how you can use Uptrace to monitor go-redis.
-
-## How do I Redis?
-
-[Learn for free at Redis University](https://university.redis.com/)
-
-[Build faster with the Redis Launchpad](https://launchpad.redis.com/)
-
-[Try the Redis Cloud](https://redis.com/try-free/)
-
-[Dive in developer tutorials](https://developer.redis.com/)
-
-[Join the Redis community](https://redis.com/community/)
-
-[Work at Redis](https://redis.com/company/careers/jobs/)
+A fork of Redis Go SDK to support [Valkey.io](https://github.com/valkey-io/valkey)
 
 ## Documentation
 
@@ -257,13 +234,6 @@ against a redis running on port 9999.:
 ```shell
 REDIS_PORT=9999 go test <your options>
 ```
-
-## See also
-
-- [Golang ORM](https://bun.uptrace.dev) for PostgreSQL, MySQL, MSSQL, and SQLite
-- [Golang PostgreSQL](https://bun.uptrace.dev/postgres/)
-- [Golang HTTP router](https://bunrouter.uptrace.dev/)
-- [Golang ClickHouse ORM](https://github.com/uptrace/go-clickhouse)
 
 ## Contributors
 
