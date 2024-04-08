@@ -8,11 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	. "github.com/bsm/ginkgo/v2"
-	. "github.com/bsm/gomega"
-
-	"github.com/redis/go-redis/v9"
-	"github.com/redis/go-redis/v9/internal/proto"
+	"github.com/Desquaredp/go-valkey/internal/proto"
 )
 
 type TimeValue struct {

@@ -3,11 +3,6 @@ package redis_test
 import (
 	"errors"
 	"time"
-
-	"github.com/redis/go-redis/v9"
-
-	. "github.com/bsm/ginkgo/v2"
-	. "github.com/bsm/gomega"
 )
 
 var _ = Describe("Cmd", func() {

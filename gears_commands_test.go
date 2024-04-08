@@ -3,11 +3,6 @@ package redis_test
 import (
 	"context"
 	"fmt"
-
-	. "github.com/bsm/ginkgo/v2"
-	. "github.com/bsm/gomega"
-
-	"github.com/redis/go-redis/v9"
 )
 
 func libCode(libName string) string {

@@ -1,10 +1,6 @@
 package redis_test
 
-import (
-	. "github.com/bsm/ginkgo/v2"
-	. "github.com/bsm/gomega"
-	"github.com/redis/go-redis/v9"
-)
+import redis "github.com/Desquaredp/go-valkey"
 
 type bitCountExpected struct {
 	Start    int64

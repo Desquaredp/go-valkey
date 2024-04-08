@@ -4,11 +4,6 @@ import (
 	"context"
 	"fmt"
 	"math"
-
-	. "github.com/bsm/ginkgo/v2"
-	. "github.com/bsm/gomega"
-
-	"github.com/redis/go-redis/v9"
 )
 
 var _ = Describe("Probabilistic commands", Label("probabilistic"), func() {

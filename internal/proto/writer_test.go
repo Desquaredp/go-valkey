@@ -8,11 +8,8 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/bsm/ginkgo/v2"
-	. "github.com/bsm/gomega"
-
-	"github.com/redis/go-redis/v9/internal/proto"
-	"github.com/redis/go-redis/v9/internal/util"
+	"github.com/Desquaredp/go-valkey/internal/proto"
+	"github.com/Desquaredp/go-valkey/internal/util"
 )
 
 type MyType struct{}

@@ -2,11 +2,6 @@ package redis_test
 
 import (
 	"context"
-
-	. "github.com/bsm/ginkgo/v2"
-	. "github.com/bsm/gomega"
-
-	"github.com/redis/go-redis/v9"
 )
 
 type JSONGetTestStruct struct {

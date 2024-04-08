@@ -6,10 +6,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/bsm/ginkgo/v2"
-	. "github.com/bsm/gomega"
-
-	"github.com/redis/go-redis/v9/internal/util"
+	"github.com/Desquaredp/go-valkey/internal/util"
 )
 
 type data struct {

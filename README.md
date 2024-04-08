@@ -49,10 +49,10 @@ module:
 go mod init github.com/my/repo
 ```
 
-Then install go-redis/**v9**:
+Then install go-valkey:
 
 ```shell
-go get github.com/redis/go-redis/v9
+go get github.com/Desquaredp/go-valkey
 ```
 
 ## Quickstart
@@ -62,7 +62,7 @@ import (
     "context"
     "fmt"
 
-    "github.com/redis/go-redis/v9"
+    "github.com/Desquaredp/go-valkey"
 )
 
 var ctx = context.Background()
@@ -123,7 +123,7 @@ import (
     "context"
     "fmt"
 
-    "github.com/redis/go-redis/v9"
+    "github.com/Desquaredp/go-valkey"
 )
 
 func ExampleClient() *redis.Client {
@@ -161,10 +161,6 @@ rdb := redis.NewClient(&redis.Options{
     DisableIndentity: true, // Disable set-info on connect
 })
 ```
-
-## Contributing
-
-Please see [out contributing guidelines](CONTRIBUTING.md) to help us improve this library!
 
 ## Look and feel
 

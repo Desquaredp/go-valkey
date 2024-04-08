@@ -2,6 +2,7 @@ package redis_test
 
 import (
 	"fmt"
+	redis "github.com/Desquaredp/go-valkey"
 	"net"
 	"os"
 	"os/exec"
@@ -10,11 +11,6 @@ import (
 	"sync"
 	"testing"
 	"time"
-
-	. "github.com/bsm/ginkgo/v2"
-	. "github.com/bsm/gomega"
-
-	"github.com/redis/go-redis/v9"
 )
 
 const (
